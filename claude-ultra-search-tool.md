@@ -1,6 +1,6 @@
 # Claude Ultra Search Tool
 
-Custom instructions for maximizing Claude's research and information gathering capabilities with MCP tools.
+Custom instructions for maximizing Claude Desktop's research and information gathering capabilities with MCP tools.
 
 ## Overview
 These custom instructions create an advanced search and research system that automatically activates and intelligently combines multiple MCP tools. The tool focus is on:
@@ -8,6 +8,25 @@ These custom instructions create an advanced search and research system that aut
 * Multi-tool integration
 * Source documentation and citation
 * Systematic workflow
+
+## Usage Notes
+1. This protocol requires:
+   - Claude Desktop
+   - Sequential Thinking MCP server
+   - Brave Search MCP server
+   - Tavily MCP server
+   - Fetch MCP server
+   - Puppeteer MCP server
+   - Knowledge Graph MCP server
+
+2. **Important Note**: These instructions don't always work 100% as expected. Claude may not always follow every aspect of the protocol perfectly. Feel free to adjust and tweak the instructions based on your specific needs and observations of how Claude interacts with the tools.
+
+## Key Features
+* Automatic tool activation without explicit prompting
+* Systematic research workflow
+* Comprehensive documentation requirements
+* Proactive multi-tool integration
+* Knowledge retention across conversations
 
 ## MCP Server Requirements
 Before implementing these instructions, you'll need to set up the following MCP servers:
@@ -24,26 +43,19 @@ Before implementing these instructions, you'll need to set up the following MCP 
 
 3. **Fetch MCP**
    - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)
-   - No API key required
    - Enables direct URL content retrieval
 
 4. **Memory/Knowledge Graph MCP**
    - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
-   - No API key required
    - Provides persistent memory across conversations
 
 5. **Sequential Thinking MCP**
    - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
-   - No API key required
    - Enables systematic thought process for complex problems
 
 6. **Puppeteer MCP** (optional but recommended)
    - Allows for interactive web navigation
-   - Provides screenshot capabilities
 
-7. **Artifacts** (built into Claude Desktop)
-   - No additional setup required
-   - Used for code, visualizations, and documents
 
 ## Core Components
 1. Automatic tool activation
@@ -167,25 +179,6 @@ Every new conversation should automatically begin with Sequential Thinking to de
 - Knowledge retention across conversations should be managed through the Knowledge Graph
 ```
 
-## Usage Notes
-1. This protocol requires:
-   - Sequential Thinking MCP server
-   - Brave Search MCP server
-   - Tavily MCP server
-   - Fetch MCP server
-   - Puppeteer MCP server
-   - Knowledge Graph MCP server
-   - Artifacts MCP server
-   - Claude Desktop
-
-2. **Important Note**: These instructions don't always work 100% as expected. Claude may not always follow every aspect of the protocol perfectly. Feel free to adjust and tweak the instructions based on your specific needs and observations of how Claude interacts with the tools.
-
-## Key Features
-* Automatic tool activation without explicit prompting
-* Systematic research workflow
-* Comprehensive documentation requirements
-* Proactive multi-tool integration
-* Knowledge retention across conversations
 
 ## Related Resources
 * JeredBlu's Website: [jeredblu.com](https://jeredblu.com)
