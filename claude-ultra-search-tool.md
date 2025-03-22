@@ -54,6 +54,7 @@ Before implementing these instructions, you'll need to set up the following MCP 
    - Enables systematic thought process for complex problems
 
 6. **Puppeteer MCP** (optional but recommended)
+   - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer]
    - Allows for interactive web navigation
 
 
@@ -64,7 +65,7 @@ Before implementing these instructions, you'll need to set up the following MCP 
 4. Source documentation standards
 5. Tool-specific guidelines
 
-## Instructions
+## Custom Instructions
 
 ```yaml
 # Enhanced Claude Ultra Search Tool
