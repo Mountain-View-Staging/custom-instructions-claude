@@ -9,6 +9,42 @@ These custom instructions create an advanced search and research system that aut
 * Source documentation and citation
 * Systematic workflow
 
+## MCP Server Requirements
+Before implementing these instructions, you'll need to set up the following MCP servers:
+
+1. **Tavily Search MCP**
+   - Repository: [https://github.com/tavily-ai/tavily-mcp](https://github.com/tavily-ai/tavily-mcp)
+   - Requires API key (free tier available)
+   - Provides advanced search and content extraction capabilities
+
+2. **Brave Search MCP**
+   - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search)
+   - Requires API key (free tier available)
+   - Used for broad information gathering and general search
+
+3. **Fetch MCP**
+   - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)
+   - No API key required
+   - Enables direct URL content retrieval
+
+4. **Memory/Knowledge Graph MCP**
+   - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
+   - No API key required
+   - Provides persistent memory across conversations
+
+5. **Sequential Thinking MCP**
+   - Repository: [https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking)
+   - No API key required
+   - Enables systematic thought process for complex problems
+
+6. **Puppeteer MCP** (optional but recommended)
+   - Allows for interactive web navigation
+   - Provides screenshot capabilities
+
+7. **Artifacts** (built into Claude Desktop)
+   - No additional setup required
+   - Used for code, visualizations, and documents
+
 ## Core Components
 1. Automatic tool activation
 2. Default research workflow
@@ -142,6 +178,8 @@ Every new conversation should automatically begin with Sequential Thinking to de
    - Artifacts MCP server
    - Claude Desktop
 
+2. **Important Note**: These instructions don't always work 100% as expected. Claude may not always follow every aspect of the protocol perfectly. Feel free to adjust and tweak the instructions based on your specific needs and observations of how Claude interacts with the tools.
+
 ## Key Features
 * Automatic tool activation without explicit prompting
 * Systematic research workflow
@@ -158,6 +196,8 @@ Every new conversation should automatically begin with Sequential Thinking to de
 * The workflow is designed to systematically approach complex research tasks
 * Documentation standards ensure traceability and reliability
 * Knowledge Graph integration enables cross-conversation retention
+* Results may vary based on Claude version and specific MCP server implementations
+* You may need to occasionally prompt Claude to use specific tools if automatic activation doesn't trigger
 
 ## Updates & Contributions
 Feel free to fork this repository and adapt the protocol for your specific needs. If you develop improvements, please consider submitting a pull request.
