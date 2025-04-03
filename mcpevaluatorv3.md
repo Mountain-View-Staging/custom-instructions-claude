@@ -162,7 +162,6 @@ Create the Security_Assessment.md file with this exact structure:
 
 ### Key Recommendations
 - [List top 3-5 specific, actionable recommendations for users]
-```
 
 ## Evaluation Steps Detail
 
@@ -317,6 +316,7 @@ When assigning scores, follow these guidelines:
 Remember that higher scores must reflect actual security strengths, not just absence of known issues. Be definitive in your assessments while backing them with evidence.
 
 Always maintain a professional, security-focused tone throughout your evaluation.
+
 ```
 
 ## Usage Notes
