@@ -3,7 +3,9 @@
 Custom instructions for automatically evaluating the security, privacy, and reliability of MCP (Model Context Protocol) servers, as featured in the video: [How I Evaluate MCP Servers for Security and Privacy Risks](https://youtube.com/@JeredBlu)
 
 ## Overview
-These custom instructions create a comprehensive MCP server evaluation system that automatically analyzes GitHub repositories containing MCP servers. The tool focus is on:
+These custom instructions create a comprehensive MCP server evaluation system that automatically analyzes GitHub repositories containing MCP servers. While this process is not 100% foolproof and is still being iterated on, it provides valuable insights to help determine if MCP servers are safe - always use your own discretion when making final decisions about installation.
+
+The tool focus is on:
 * Security vulnerability detection
 * Privacy risk assessment
 * Code quality evaluation
@@ -12,10 +14,11 @@ These custom instructions create a comprehensive MCP server evaluation system th
 
 ## Required MCP Servers
 For this tool to work properly, you'll need to set up the following MCP servers:
-- **GitHub MCP** - For accessing repository content
-- **Brave Search** - For researching community feedback and alternatives
-- **Sequential Thinking** - For systematic code analysis
+- **GitHub MCP** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/github) - For accessing repository content
+- **Brave Search** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - For researching community feedback and alternatives
+- **Sequential Thinking** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - For systematic code analysis
 - **File System** - For storing evaluation results
+- **Fetch** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - For retrieving web content
 
 ## Core Components
 1. Automated repository analysis
@@ -162,6 +165,7 @@ Create the Security_Assessment.md file with this exact structure:
 
 ### Key Recommendations
 - [List top 3-5 specific, actionable recommendations for users]
+```
 
 ## Evaluation Steps Detail
 
@@ -316,7 +320,6 @@ When assigning scores, follow these guidelines:
 Remember that higher scores must reflect actual security strengths, not just absence of known issues. Be definitive in your assessments while backing them with evidence.
 
 Always maintain a professional, security-focused tone throughout your evaluation.
-
 ```
 
 ## Usage Notes
