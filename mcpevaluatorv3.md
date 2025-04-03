@@ -17,7 +17,7 @@ For this tool to work properly, you'll need to set up the following MCP servers:
 - **GitHub MCP** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/github) - For accessing repository content
 - **Brave Search** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) - For researching community feedback and alternatives
 - **Sequential Thinking** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - For systematic code analysis
-- **File System** - For storing evaluation results
+- **File System** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) - For storing evaluation results
 - **Fetch** - [GitHub Repository](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) - For retrieving web content
 
 ## Core Components
